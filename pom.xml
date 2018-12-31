@@ -13,23 +13,6 @@
         <spring.framework.version>4.2.5.RELEASE</spring.framework.version>
     </properties>
 
-    <repositories>
-        <!--设置普通依赖的下载位置-->
-        <repository>
-            <id>maven-net-cn</id>
-            <name>Maven China Mirror</name>
-            <url>http://repo1.maven.org/maven2/</url>
-            <!--release稳定版本从这里下载-->
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <!--snapshots快照版本禁止从这里下载-->
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
     <dependencies>
         <!-- spring -->
         <dependency>
